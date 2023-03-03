@@ -4,7 +4,6 @@ import java.awt.*;
 public class Main extends JFrame {
     public static void main(String[] args) {
         final int[] random = {(int) (Math.random() * 1000)};
-        //Setting Frame
         JFrame f = new JFrame("Guess the Number Game.");
 
         //Setting Label
